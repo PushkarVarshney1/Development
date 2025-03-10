@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ab20e6;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #191414;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 20, 7, 0.7)), url('path_to_your_image.jpg') no-repeat center center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.get-started {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.faq {
+    background: linear-gradient(to right, #8A3FFC, #FF4B02);
+    padding: 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.faq-item {
+    margin: 10px 0;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+}
+
+.faq-item p {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-item.active p {
+    display: block;
+}
+
+footer {
+    background-color: #121212;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #B3B3B3;
+}
+
+footer div {
+    width: 30%;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+footer .social-icons a {
+    margin-right: 10px;
+}
